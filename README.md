@@ -39,7 +39,7 @@ During the workshop we will analyse a few datasets. There are exercises that wil
 
 ### Exercises
 
-* [Exercise 0](exercise0/README.md): The ___"Hello World"___ of Big Data is Word Count... so, let's count the words of a file the python way.
+* [Exercise 0](tree/master/MapReduce/exercise0/README.md): The ___"Hello World"___ of Big Data is Word Count... so, let's count the words of a file the python way.
 * [Exercise 1](exercise1/README.md): Let's repeat the previous exercise using MapReduce. We will create two scripts a Mapper and a Reducer.
 * [Exercise 2](exercise2/README.md): We will improve the MapReduce sripts and will sort the map results before reduction using the sort unix utility.
 * [Exercise 3](exercise3/README.md): PyCon is for Python, let's see what happens when we sort the map results with python.
