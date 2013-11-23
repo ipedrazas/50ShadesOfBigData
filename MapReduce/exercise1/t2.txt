@@ -1,0 +1,9 @@
+uno		1
+dos		2
+tres	3
+cuatro	4
+cinco	5
+diez	10
+doce	12
+ochenta y siete	87
+cien	100

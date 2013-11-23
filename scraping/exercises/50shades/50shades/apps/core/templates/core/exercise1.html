@@ -1,0 +1,78 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="row">
+     <div class=".col-xs-6">
+
+                        <h1>Challenge One - Scrape this table!</h1>
+                        <p>We're going to start off pretty easily.</p>
+
+                        <p>Here's a table containing the last ten premiers of Australia, as well as the political party they belonged to. Your task, should you choose to accept it (you will), is to grab each row and to shove it into a database. </p>
+
+                         <p>For the scraping, I'd suggest you check out lxml, PyQuery or Beautiful Soup. To put the data into a database, Scraperwiki have made a rather nice library for Python called ScraperWiki-Python. So, what are you waiting for?</p>
+                        <p>Scrape it. </p>
+
+                </div>
+
+                <div class=".col-xs-6">
+                        <table>
+                                <tr>
+                                        <th>Premier</th>
+                                        <th>Party</th>
+                                        <th>Years Active</th>
+                                </tr>
+                                <tr>
+                                        <td>Kevin Rudd</td>
+                                        <td>Labor</td>
+                                        <td> 27-06-2013 - 07-09-2013 </td>
+                                </tr>
+                                <tr>
+                                        <td>Julia Gillard</td>
+                                        <td>Labor</td>
+                                        <td>24-06-2010 - 27-07-2013</td>
+                                </tr>
+                                <tr>
+                                        <td>Kevin Rudd</td>
+                                        <td>Labor</td>
+                                        <td>03-12-2007 - 24-06-2010</td>
+                                </tr>
+                                <tr>
+                                        <td>John Howard</td>
+                                        <td>Liberal/Coalition</td>
+                                        <td>11-03-1996 - 03-12-2007</td>
+                                </tr>
+                                <tr>
+                                        <td>Paul Keating</td>
+                                        <td>Labor</td>
+                                        <td>20-12-1991 - 11-03-1996</td>
+                                </tr>
+                                <tr>
+                                        <td>Bob Hawke</td>
+                                        <td>Labor</td>
+                                        <td>11-03-1983 - 20-12-1991</td>
+                                </tr>
+                                <tr>
+                                        <td>Malcolm Fraser</td>
+                                        <td>Liberal/Coalition</td>
+                                        <td>11-11-1975 - 11-03-1983</td>
+                                </tr>
+                                <tr>
+                                        <td>Gough Whitlam</td>
+                                        <td>Labor</td>
+                                        <td>05-12-1972 - 11-11-1975</td>
+                                </tr>
+                                <tr>
+                                        <td>William McMahon</td>
+                                        <td>Liberal/Coalition</td>
+                                        <td>10-03-1971 - 05-12-1972</td>
+                                </tr>
+                                <tr>
+                                        <td>John Gorton</td>
+                                        <td>Liberal/Coalition</td>
+                                        <td>10-01-1968 - 10-03-1971</td>
+                                </tr>
+                        </table>
+
+                </div>
+</div>
+{% endblock content %}

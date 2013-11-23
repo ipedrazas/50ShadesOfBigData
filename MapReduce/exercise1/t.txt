@@ -1,0 +1,9 @@
+1	uno
+2	dos
+3	tres
+4	cuatro
+5	cinco
+10	diez
+12	doce
+87	ochenta y siete
+100	cien

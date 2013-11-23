@@ -1,0 +1,4 @@
+-r base.txt
+
+django-secure==1.0
+gunicorn==18.0

@@ -1,0 +1,9 @@
+0.001	uno
+0.002	dos
+0.003	tres
+0.004	cuatro
+0.005	cinco
+0.010	diez
+0.012	doce
+0.087	ochenta y siete
+0.100	cien

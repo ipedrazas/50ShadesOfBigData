@@ -1,0 +1,18 @@
+*.pyc
+*.mobi
+*.epub
+*.fb2
+*.log
+*.csv
+*.old
+*.box
+.__vagrant/
+.vagrant/
+
+MapReduce/Data/
+*.bson
+*.json
+
+# Removing ElasticSearh
+MapReduce/exercise8
+
