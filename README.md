@@ -39,14 +39,14 @@ During the workshop we will analyse a few datasets. There are exercises that wil
 
 ### Exercises
 
-* [Exercise 0](tree/master/MapReduce/exercise0/README.md): The ___"Hello World"___ of Big Data is Word Count... so, let's count the words of a file the python way.
-* [Exercise 1](exercise1/README.md): Let's repeat the previous exercise using MapReduce. We will create two scripts a Mapper and a Reducer.
-* [Exercise 2](exercise2/README.md): We will improve the MapReduce sripts and will sort the map results before reduction using the sort unix utility.
-* [Exercise 3](exercise3/README.md): PyCon is for Python, let's see what happens when we sort the map results with python.
-* [Exercise 4](exercise4/README.md): We introduce a library that will help us with the data conditioning. Results of the Reduce job will be stored on a MongoDB collection.
-* [Exercise 5](exercise5/README.md): In this exercise will get the text files, add them to MongoDB. We will define a Map function and a reduce function using the MongoDB MapReduce features.
-* [Exercise 6](exercise6/README.md): This is the exercise where we will cover the whole Big Data cycle. We will go from fetching raw data to condition, clean up and analyse that data. Finally we will draw some conclusions from our analysis.
-* [Exercise 7](exercise7/README.md): In this exercise we want to get the best 10 stories. How do you define "The best" is going to shift the selection towards a different dataset. During this exercise we will investigate the different approaches you can have to solve this problem.
+* [Exercise 0](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise0/README.md): The ___"Hello World"___ of Big Data is Word Count... so, let's count the words of a file the python way.
+* [Exercise 1](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise1/README.md): Let's repeat the previous exercise using MapReduce. We will create two scripts a Mapper and a Reducer.
+* [Exercise 2](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise2/README.md): We will improve the MapReduce sripts and will sort the map results before reduction using the sort unix utility.
+* [Exercise 3](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise3/README.md): PyCon is for Python, let's see what happens when we sort the map results with python.
+* [Exercise 4](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise4/README.md): We introduce a library that will help us with the data conditioning. Results of the Reduce job will be stored on a MongoDB collection.
+* [Exercise 5](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise5/README.md): In this exercise will get the text files, add them to MongoDB. We will define a Map function and a reduce function using the MongoDB MapReduce features.
+* [Exercise 6](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise6/README.md): This is the exercise where we will cover the whole Big Data cycle. We will go from fetching raw data to condition, clean up and analyse that data. Finally we will draw some conclusions from our analysis.
+* [Exercise 7](https://github.com/ipedrazas/50ShadesOfBigData/blob/master/MapReduce/exercise7/README.md): In this exercise we want to get the best 10 stories. How do you define "The best" is going to shift the selection towards a different dataset. During this exercise we will investigate the different approaches you can have to solve this problem.
 
 
     We have a dataset, we want to see what the data can tell us. We will create (yet-another) MapReduce that will help us to analyse data in a monthly and yearly basis. Results will be displayed using a D3 calling an EndPoint built on Flask.
